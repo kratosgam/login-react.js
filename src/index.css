@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Remove qualquer espaço em branco do navegador */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Força a altura e largura total da tela */
+  width: 100%;
+  min-height: 100vh;
+
+  /* Configuração da Imagem */
+  background-image: url("./assets/nasa-disponibiliza-mais-de-140000-imagens-do-espaco-em-banco-gratuito11.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Mantém o fundo parado ao rolar */
+}
